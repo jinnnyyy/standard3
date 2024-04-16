@@ -54,7 +54,7 @@ class adapter(val mItems: MutableList<item>) : RecyclerView.Adapter<adapter.Hold
 
     inner class Holder(val binding: ItemBinding) : RecyclerView.ViewHolder(binding.root) {
         val name = binding.name
-        val when3 = binding.when2
+        val when3 = binding.when3
         val number = binding.number
         var price = binding.price
     }

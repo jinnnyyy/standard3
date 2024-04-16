@@ -31,11 +31,11 @@
         android:text="잔고"
         android:textColor="@color/white"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/when2"
-        app:layout_constraintTop_toBottomOf="@+id/when2" />
+        app:layout_constraintStart_toStartOf="@+id/yourblance"
+        app:layout_constraintTop_toBottomOf="@+id/yourblance" />
 
     <TextView
-        android:id="@+id/when"
+        android:id="@+id/when3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="날짜"
@@ -77,7 +77,7 @@
         app:layout_constraintTop_toTopOf="@+id/name" />
 
     <TextView
-        android:id="@+id/when2"
+        android:id="@+id/yourblance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
@@ -90,10 +90,11 @@
         android:id="@+id/visa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
         android:text="Visa"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/price"
-        app:layout_constraintEnd_toEndOf="@+id/when"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="@+id/price" />
 
 
